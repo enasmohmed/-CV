@@ -1,0 +1,878 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Courgette', cursive ;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    /* border: 1px dashed #f7c572; */
+    background: #000;
+    /* border-radius: 20px; */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f7c572;
+    border-radius: 50px;
+}
+
+/********** start-navbar *************/
+
+.start-navbar .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff99;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .85s ease-in-out;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+@media (max-width: 991px) {
+    .start-navbar .navbar-dark .navbar-nav .nav-link {
+        text-align: center;
+    }
+}
+
+.start-navbar .navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #fff;
+    color: #000;
+    /* border: 2px solid #ffcb8d; */
+    /* padding: 10px; */
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.start-navbar .navbar-dark .navbar-collapse .form-icon i {
+    background-color: #9da1a5;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.start-navbar .navbar-dark .navbar-collapse .form-icon  .fa-facebook {
+    background-color: #3b5998;
+}
+
+.start-navbar .navbar-dark .navbar-collapse .form-icon .fa-google-plus {
+    background-color: #dd4b39;
+}
+
+.start-navbar .navbar-dark .navbar-collapse .form-icon .fa-github {
+    background-color: #333;
+}
+.start-navbar .navbar-dark .navbar-collapse .form-icon .fa-linkedin {
+    background-color: #0077b5;
+}
+/********** End-navbar *************/
+
+/********** Start Header *************/
+.header {
+    background: url('../image/6.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: calc(100vh - 56px);
+    min-height: 600px;
+    position: relative;
+}
+.header .overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.header .list{
+    margin-top: 240px;
+    list-style: none;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center; 
+}
+@media (max-width: 991px) {
+    .header .list {
+        margin-left: -25px;
+        font-size: 17px;
+    }
+}
+.header .list h3 {
+    font-size: 20px !important;
+    color: bisque;
+    margin-left: 70px;
+    margin-bottom: 2px;
+    font-family: 'Courgette', cursive;
+}
+
+.header .list h1 {
+    font-size: 50px;
+    margin-left: -25px;
+}
+@media (max-width: 991px) {
+    .header .list h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+.header .list p {
+    color: bisque;
+    margin-left: -10px;
+    margin-bottom: 5px;
+
+}
+
+.header .arrow {
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 60px;
+}
+@media (max-width: 991px) {
+    .header .arrow {
+        margin-left: 170px;
+        margin-top: 80px;
+    }
+}
+.header .arrow i {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 32px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+/************ End Header **************/
+
+/*********** Start About Me *************/
+.about-me  {
+    margin-bottom: 50px;
+}
+
+.about-me  h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+@media (max-width: 991px) {
+    .about-me  h4{
+        text-align: center;
+    }
+}
+
+.about-me  p {
+    margin-bottom: 20px;
+}
+
+.about-me .skills-main {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 991px) {
+    .about-me .skills-main{
+        margin-left: -90px;
+        margin-top: -50px;
+    }
+}
+.about-me .itemes .cit {
+    margin-left: -199px;
+}
+.about-me .itemes .cit span {
+    margin-left: 200px;
+    
+}
+
+.about-me .itemes .ma {
+    /* margin-left: 190px;
+    margin-top: -44px; */
+}
+
+.about-me .itemes .in {
+    margin-left: 200px;
+    margin-top: -43px;
+}
+
+.about-me  .bot {
+    margin-top: 70px;
+    margin-left: 360px;
+} 
+
+.about-me  .bot a {
+    color: #fff;
+    text-decoration: none;
+}
+.about-me  .bot .btn-primary {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    background-color: #ffcb8d;
+    border: 1px solid #ffcb8d;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    margin-left: -320px;
+}
+.about-me  .bot .btn-primary:hover {
+    background-color: #000;
+    color: #fff;
+    /* border: 2px solid #ffcb8d; */
+    /* padding: 15px; */
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .about-me  .bot .btn-primary{
+        margin-left: -230px;
+        margin-top: -130px;
+        width: 250px;
+    }
+}
+.about-me  .bot .btn-secondary {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    background-color: #040403e3;
+    border: 1px solid #040403e3;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 30px;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .85s ease-in-out;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+
+.about-me  .bot .btn-secondary:hover {
+    /* border: 2px solid #ffcb8d; */
+    /* padding: 15px; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .about-me  .bot .btn-secondary{
+        margin-left: -250px;
+        margin-top: -10px;
+        width: 250px;
+    }
+}
+/* Start progress bar */
+.mainDiv{
+    width:50%;
+    margin: auto;
+    margin-top: 70px;
+}
+.progressBar{
+    width: 360px;
+    height: 10px;
+    position: relative;
+    border:1px solid #33afe7;
+    text-align: center;
+    color: black;
+    border-radius:20px;
+}
+
+.progressBar .progressValue{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #33afe7;
+    animation: progressBar 5s linear infinite;
+}
+.progressBar .progressValue:after{
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(-45deg,
+        rgba(255,255,255,0.4) 33.33%,
+        transparent 33.33%,
+        transparent 66.66%,
+        rgba(255,255,255,0.4) 66.66%
+        );
+    background-size: 30px 15px;
+    animation: progressBarStrip 1s linear infinite;
+}
+@keyframes progressBar{
+    0%{
+        background-color: #33afe7;
+    }
+    25%{
+        background-color: #55d65c;
+    }
+    50%{
+        background-color: #f40e48;
+    }
+    75%{
+        background-color: #55d65c;
+    }
+    100%{
+        background-color: #33afe7;
+    }
+}
+@keyframes progressBarStrip{
+    0%{background-position: 0 15px;}
+    100%{background-position: 30px 15px;}
+}
+/* End progress bar */
+/*********** End About Me *************/
+
+/*********** Start Services *************/
+
+.services {
+    background: url(../image/14.jpg) no-repeat top  center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    color: #fff;
+}
+
+.portfolio-card{
+    display: none;
+}
+
+.services .overlay{
+    padding-bottom: 100px;
+}
+
+.services .set {
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+}
+.services .set .pro {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .services .set .pro{
+        text-align: center;
+    }
+}
+.services .set .thay {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+
+
+@media (max-width: 991px) {
+    .services .set .thay{
+        text-align: center;
+        margin-left: -10px
+    }
+}
+.services .card-box {
+    margin-bottom: -40px;
+    position: relative;
+}
+
+.services .card-box:hover .overlay-box {
+    display: block;
+}
+
+.services .card-box .overlay-box {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 83%;
+    background-color:#f19783b0;
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    display: none;
+}
+.services .card-box .overlay-box h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.services .card-box .overlay-box p {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #000;
+}
+
+.services .card-box .overlay-box button{
+    padding: 10px;
+    background: #131212;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+}
+ 
+.services .card-box .overlay-box button:hover a {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+.services .card-box .overlay-box button a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .85s ease-in-out;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+.services .card-box img {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.services .overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.services .show-more {
+    background: transparent;
+    border: 2px solid #ccc;
+    margin-left: 430px;
+    margin-top: 80px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .85s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+.services .show-more:hover {
+    padding: 10px;
+    background-color: #ffcb8d;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .services .show-more {
+        margin-left: 130px;
+        margin-top: 90px;
+        width: 250px;
+    }
+    .services .show-more:hover{
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+/*********** End Services *************/
+/*********** Start Portofolio ***********/
+.portoflio {
+    margin-top: 70px;
+}
+
+@media (max-width: 991px) {
+    .portoflio{
+        display: none;
+    }
+}
+.portoflio h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .portoflio h2{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: -10px;
+    }
+}
+.portoflio .box {
+    border: 2px solid #ccc;
+    margin-top: 40px;
+    height: 90%;
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .85s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+@media (max-width: 991px) {
+    .portoflio .box {
+        height: 250px;
+        margin-bottom: -5px;
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+.portoflio .box:hover {
+    background-color: blanchedalmond;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: box-shadow ease-in-out 0.3s, opacity 0.4s;
+}
+.portoflio .image {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+@media (max-width: 991px) {
+    .portoflio .image  {
+        margin-top: 10px;
+        margin-left: 170px;
+    }
+}
+.portoflio .massge-1 {
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+    .portoflio .massge-1{
+        margin-top: 8px;
+        margin-left: 87px;
+    }
+}
+.portoflio .massge-2 {
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+@media (max-width: 991px) {
+    .portoflio .massge-2{
+        margin-top: 25px;
+        margin-left: 70px;
+    }
+}
+.portoflio .massge-3 {
+    margin-right: 15px;
+    border-radius: 10px;
+    margin-top: 27px;
+}
+@media (max-width: 991px) {
+    .portoflio .massge-3{
+        margin-top: 28px;
+        margin-left: 70px;
+    }
+}
+.portoflio .massge-4 {
+    margin-left: 160px;
+    border-radius: 10px;
+    margin-top: -26px;
+}
+@media (max-width: 991px) {
+    .portoflio .massge-4{
+        margin-top: 90px;
+        margin-left: -7px;
+        margin-bottom: -20px;
+    }
+}
+.portoflio .massge-7 {
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: -5px;
+}
+@media (max-width: 991px) {
+    .portoflio .massge-7{
+        margin-top: 18px;
+        margin-left: 127px;
+        border-radius: 30px;
+    }
+}
+
+.portoflio .massge-5 {
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 59px;
+}
+
+@media (max-width: 991px) {
+    .portoflio .massge-5{
+        margin-top: 18px;
+        margin-left: 90px;
+    }
+}
+.portoflio .massge-6 {
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+@media (max-width: 991px) {
+    .portoflio .massge-6{
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+}
+/*********** End Portofolio ***********/
+
+/*********** Start Contact ************/
+.contact-me {
+    background: url(../image/10.jpg)no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 90px;
+    color: #fff;
+}
+@media (max-width: 991px) {
+    .contact-me {
+        background-size: cover;
+        margin-top: 40px;
+    }
+}
+.contact-me .overlay{
+    padding: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #a0a0a059;
+}
+
+.contact-me .overlay h2 {
+    margin-left: 330px;
+}
+@media (max-width: 991px) {
+    .contact-me .overlay h2  {
+        margin-left: 90px;
+    }
+}
+.contact-me .overlay p{
+    margin-left: 310px;
+    margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+    .contact-me .overlay p {
+        margin-left: 70px;
+    }
+}
+.contact-me  form {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden;
+}
+@media (max-width: 991px) {
+    .contact-me  form {
+        width: 100%;
+    }
+}
+.contact-me form input[type="text"],
+.contact-me form input[type="email"] {
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+@media (max-width: 991px) {
+    .contact-me form input[type="text"],
+    .contact-me form input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.contact-me form input[type="text"] {
+    float: left;
+}
+
+.contact-me form input[type="email"] {
+    float: right;
+}
+
+.contact-me form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 991px) {
+    .contact-me form textarea {
+        margin-top: 4px;
+    }
+}
+.contact-me .info {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.contact-me form .info button {
+    float: left;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color: #ffcb8d;
+    color: #000;
+    border-radius: 10px;
+    font-size: 18px;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .85s ease-in-out;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+
+.contact-me form .info button a{
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .85s ease-in-out;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+}
+.contact-me form .info button a:hover{
+    /* background-color: #000; */
+    /* color: #fff; */
+    /* border: 2px solid #ffcb8d; */
+    /* padding: 14px; */
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .contact-me form .info button:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #ffcb8d;
+    padding: 14px;
+    font-size: 20px;
+} */
+
+.contact-me form .info .form-icon {
+    float: right;
+}
+
+.contact-me form .info .form-icon i {
+    background-color: #9da1a5;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.contact-me form .info .form-icon .fa-facebook {
+    background-color: #3b5998;
+}
+
+.contact-me form .info .form-icon .fa-google-plus {
+    background-color: #dd4b39;
+}
+
+.contact-me form .info .form-icon .fa-github {
+    background-color: #333;
+}
+
+.contact-me form .info .form-icon .fa-linkedin {
+    background-color: #0077b5;
+}
+/*********** End Contact ************/
+
+/*********** Start Footer ***********/
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    overflow: hidden;
+    padding: 16px;
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
+}
+
+.footer .copyright {
+    float: left;
+}
+
+@media (max-width: 991px) {
+    .footer .copyright {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+.footer .design {
+    float: right;
+}
+@media (max-width: 991px) {
+    .footer .design{
+        width: 100%;
+        text-align: center;
+    }
+}
+/*********** End Footer ***********/
+
+
+
+/*********** Start Framework ************/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.hidden {
+    display: none;
+}
+
+.line:after {
+    content: '';
+    display: block;
+    width: 65px;
+    height: 1px;
+    background-color: #333;
+    margin: 4px;
+    margin-top: -20px;
+}
+/*********** End Framework **************/
